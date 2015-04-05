@@ -222,7 +222,7 @@ int main ( int argc,char **argv )
 	/*/
     int i=0;
     for(i=10;i<76;i++){
-         sprintf ( dest,"192.168.0.%d",i );
+         sprintf ( dest,"202.194.201.%d",i );
              sendpkg ( mac,broad_mac,ip,dest );
      }
 /**/

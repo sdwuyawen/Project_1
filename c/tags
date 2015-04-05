@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IPVERSION	ping.c	16;"	d	file:
+IP_HSIZE	ping.c	15;"	d	file:
+alarm_handler	ping.c	/^void alarm_handler(int signo)$/;"	f	signature:(int signo)
+bail	ping.c	/^void bail(const char * on_what)$/;"	f	signature:(const char * on_what)
+checksum	ping.c	/^u16 checksum(u8 *buf,int len)$/;"	f	signature:(u8 *buf,int len)
+get_statistics	ping.c	/^void get_statistics(int nsent,int nrecv)$/;"	f	signature:(int nsent,int nrecv)
+handle_pkt	ping.c	/^int handle_pkt()$/;"	f
+int_handler	ping.c	/^void int_handler(int sig)$/;"	f	signature:(int sig)
+main	ping.c	/^int main(int argc,char **argv)	\/*argc表示隐形程序命令行中参数的数目，argv是一个指向字符串数组指针，其中每一个字符对应一个参数*\/$/;"	f	signature:(int argc,char **argv)
+recv_reply	ping.c	/^void recv_reply()$/;"	f
+send_ping	ping.c	/^void send_ping(void)$/;"	f	signature:(void)
+set_sighandler	ping.c	/^void set_sighandler()$/;"	f
+val_alarm	ping.c	/^struct itimerval val_alarm={.it_interval.tv_sec = 1,	$/;"	v	typeref:struct:itimerval
